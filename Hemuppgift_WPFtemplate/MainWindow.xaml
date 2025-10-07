@@ -31,7 +31,7 @@
         </Grid>
         <!--DockPanel Knapp-->
         <Grid Grid.Row="1" Grid.Column="1">
-            <Button x:Name="DockPanelButton" Content="DockPanel"/>
+            <Button x:Name="DockPanelButton" Content="DockPanel" Click="DockPanelButton_Click"/>
         </Grid>
 
     </Grid>

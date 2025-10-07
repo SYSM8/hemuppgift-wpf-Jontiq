@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="StackPanelWindow" Height="450" Width="800">
     <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
-    <DockPanel>
+    <StackPanel>
         <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Margin="5">
             <RadioButton Content="Horizontal  " IsChecked="True" Click="Horizontal_Click"/>
             <RadioButton Content="Vertical" Click="Vertical_Click"/>
@@ -22,6 +22,6 @@
                 <Rectangle Fill="Blue" Width="40" Height="40" Margin="5"/>
                 <Rectangle Fill="Black" Width="30" Height="30" Margin="5"/>
             </StackPanel>
-    </DockPanel>
+    </StackPanel>
     </ScrollViewer>
 </Window>
