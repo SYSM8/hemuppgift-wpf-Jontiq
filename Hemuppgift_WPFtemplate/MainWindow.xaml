@@ -27,7 +27,7 @@
         </Grid>
         <!--WrapPanel Knapp-->
         <Grid Grid.Row="1" Grid.Column="0">
-            <Button x:Name="WrapPanelButton" Content="WrapPanel"/>
+            <Button x:Name="WrapPanelButton" Content="WrapPanel" Click="WrapPanelButton_Click"/>
         </Grid>
         <!--DockPanel Knapp-->
         <Grid Grid.Row="1" Grid.Column="1">
