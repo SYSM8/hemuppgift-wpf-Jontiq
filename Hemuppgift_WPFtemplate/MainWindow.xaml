@@ -5,8 +5,34 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hemuppgift_WPFtemplate"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Window" Height="450" Width="800">
     <Grid>
+        <!--Splits grid into 4 parts-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!--Grid innehåll-->
+        <!--Grid Knapp-->
+        <Grid Grid.Row="0" Grid.Column="0">
+            <Button x:Name="GridButton" Content="Grid" Click="GridButton_Click"/>
+        </Grid>
+        <!--StackPanel Knapp-->
+        <Grid Grid.Row="0" Grid.Column="1">
+            <Button x:Name="StackPanelButton" Content="StackPanel" Click="StackPanelButton_Click"/>
+        </Grid>
+        <!--WrapPanel Knapp-->
+        <Grid Grid.Row="1" Grid.Column="0">
+            <Button x:Name="WrapPanelButton" Content="WrapPanel"/>
+        </Grid>
+        <!--DockPanel Knapp-->
+        <Grid Grid.Row="1" Grid.Column="1">
+            <Button x:Name="DockPanelButton" Content="DockPanel"/>
+        </Grid>
 
     </Grid>
 </Window>
